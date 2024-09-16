@@ -33,14 +33,6 @@ Este proyecto presenta una interfaz amigable para administrar datos de usuarios 
 * **UserList**: Lista dinámica e interactiva de usuarios
 * **Filters**: Componente para capacidades avanzadas de filtrado y búsqueda
 
-## 💡 Primeros Pasos
-
-1. Clona el repositorio
-2. Instala las dependencias: `npm install`
-3. Ejecuta el servidor de desarrollo: `npm run dev`
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador
-
-
 ---
 
 Desarrollado por Joan Diaz Estigarribia
