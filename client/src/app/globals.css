@@ -1,0 +1,160 @@
+/* app/globals.css */
+@import 'primereact/resources/themes/lara-light-indigo/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.css';
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+.bg-primary-blue {
+  background-color: #0763E7;
+}
+
+.bg-primary-blue-100 {
+  background-color: #3B82F6;
+}
+
+.bg-primary-blue-200 {
+  background-color: #2563EB;
+}
+
+.border-blue {
+  border: 1px solid #3B82F6;
+  border-radius: 6px;
+}
+
+.text-primary-blue {
+  color: #0763E7;
+}
+
+.text-primary-blue-100 {
+  color: #3B82F6;
+}
+
+.text-primary-gray {
+  color: #4B5563;
+}
+
+.bg-primary-gray {
+  background-color: #64748B;
+}
+
+.bg-primary-gray-100 {
+  background-color: #2D3E50;
+}
+
+.border-color {
+  border-color: #D1D5DB;
+}
+
+.pl-5-5 {
+  padding-left: 2.5rem;
+}
+
+.p-dropdown-items-wrapper {
+  max-height: 200px;
+  padding: 1rem;
+}
+
+.p-dropdown-item {
+  padding: 0.5rem;
+}
+
+.p-column-title {
+  margin-right: 5px;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+  text-align: left;
+  padding: 1rem 1rem !important;
+  max-width: 100px;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+  padding: 0.5rem 1rem !important;
+  font-size: 14px;
+  color: #4B5563;
+}
+
+.p-dialog {
+  width: 80vw;
+  height: 36vw;
+}
+
+.p-dialog-header {
+  background-color: #0763E7;
+}
+
+.p-dialog-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.p-dialog-header-icons {
+  align-self: center;
+  padding-right: 1rem;
+}
+
+.p-dialog-header-close {
+  color: #fff;
+}
+
+.p-datatable.p-component.p-datatable-responsive-scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  gap: 10px;
+}
+
+.p-dropdown.p-component.p-inputwrapper.p-inputwrapper-filled {
+  gap: 5px;
+  padding: 10px;
+}
+
+.p-dropdown-label.p-inputtext {
+  align-self: center;
+}
+
+.p-dropdown-trigger {
+  width: auto;
+}
+
+.card {
+  background: white;
+  padding: 1rem 2rem 0;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+  width: 100%;
+}
+
+@media (width <=1024px) {
+  .card {
+    padding: 1rem 0 0;
+    width: 85%;
+    margin: 0 auto auto;
+    box-shadow: none;
+  }
+
+  .p-dialog {
+    height: auto;
+  }
+}
