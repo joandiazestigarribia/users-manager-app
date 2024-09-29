@@ -26,12 +26,15 @@ Este proyecto presenta una interfaz amigable para administrar datos de usuarios 
 * `/services`: Lógica de interacción con la API y gestión de datos
 * `/styles`: Estilos globales y módulos CSS
 
-## 🚀 Componentes Clave
+## 🚀 Componentes Claves
 
 * **UserManagement**: Componente central que orquesta el flujo de gestión de usuarios
 * **CreateEditUserModal**: Modal para añadir y editar información de usuarios
 * **UserList**: Lista dinámica e interactiva de usuarios
 * **Filters**: Componente para capacidades avanzadas de filtrado y búsqueda
+
+## ✨ Demo
+* https://usersmanager-app.netlify.app/
 
 ---
 
